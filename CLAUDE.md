@@ -4,7 +4,7 @@
 
 ## Что внутри
 
-- Laravel 11
+- Laravel 13
 - Telegram Bot SDK (irazasyed/telegram-bot-sdk)
 - Готовый webhook-контроллер
 - Обёртка TelegramService для бизнес-логики

@@ -4,7 +4,7 @@
 
 ## Особенности
 
-- **Laravel 11** + **Telegram Bot SDK** (irazasyed/telegram-bot-sdk)
+- **Laravel 13** + **Telegram Bot SDK** (irazasyed/telegram-bot-sdk)
 - Готовый webhook-контроллер с исключением CSRF
 - Обёртка `TelegramService` для бизнес-логики
 - Пример обработки `/start`, текста и фото
