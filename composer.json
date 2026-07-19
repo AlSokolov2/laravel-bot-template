@@ -1,10 +1,10 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "alsokolov/laravel-bot-template",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
+    "description": "Laravel boilerplate for multi-platform bots (Telegram, MAX, VK Mini Apps) with Platform Adapter Architecture.",
+    "keywords": ["laravel", "telegram-bot", "max-bot", "multi-platform", "boilerplate", "gplv3"],
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.3",
         "irazasyed/telegram-bot-sdk": "^3.15",
@@ -44,6 +44,12 @@
         "dev": [
             "Composer\\Config::disableProcessTimeout",
             "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1 --timeout=0\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite --kill-others"
+        ],
+        "lint": [
+            "@php artisan pint --test"
+        ],
+        "lint:fix": [
+            "@php artisan pint"
         ],
         "test": [
             "@php artisan config:clear --ansi @no_additional_args",
