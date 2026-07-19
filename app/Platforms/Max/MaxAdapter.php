@@ -67,7 +67,7 @@ class MaxAdapter implements PlatformAdapterInterface
     {
         $this->http
             ->withHeader('Authorization', $this->token)
-            ->post(self::API_BASE . '/bots/setWebhook', [
+            ->post(self::API_BASE.'/bots/setWebhook', [
                 'url' => $url,
             ]);
     }

@@ -25,6 +25,7 @@ class MaxWebhookController extends Controller
 
         if (! $token) {
             Log::warning('MAX: webhook called but token is not configured');
+
             return response()->noContent();
         }
 

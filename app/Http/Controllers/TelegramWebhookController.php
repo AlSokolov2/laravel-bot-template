@@ -23,7 +23,7 @@ class TelegramWebhookController extends Controller
      */
     public function __invoke(
         Request $request,
-        string $bot = 'mybot',
+        string $bot,
         BotService $service,
     ): Response {
         $telegram = app(Api::class)->bot($bot);

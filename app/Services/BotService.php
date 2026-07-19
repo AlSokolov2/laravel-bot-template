@@ -28,10 +28,10 @@ class BotService
 
         if (str_starts_with($text, '/start')) {
             return "Привет! 👋\n\n"
-                . "Я бот-шаблон.\n"
-                . "Платформа: {$message->platform}\n"
-                . "Твой ID: {$message->userId}\n\n"
-                . "Замени BotService::process() на свою бизнес-логику.";
+                ."Я бот-шаблон.\n"
+                ."Платформа: {$message->platform}\n"
+                ."Твой ID: {$message->userId}\n\n"
+                .'Замени BotService::process() на свою бизнес-логику.';
         }
 
         if ($message->hasPhoto()) {
@@ -40,7 +40,7 @@ class BotService
 
         if ($message->hasText()) {
             return "Получено: «{$message->text}»\n"
-                . 'Я пока не знаю такой команды.';
+                .'Я пока не знаю такой команды.';
         }
 
         return 'Пожалуйста, отправьте текст или фото.';
