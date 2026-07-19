@@ -3,7 +3,7 @@
 [![Lint & Test](https://github.com/AlSokolov2/laravel-bot-template/actions/workflows/test.yml/badge.svg)](https://github.com/AlSokolov2/laravel-bot-template/actions/workflows/test.yml)
 [![PHP](https://img.shields.io/badge/PHP-8.3%2B-blue)](https://php.net)
 [![Laravel](https://img.shields.io/badge/Laravel-13-red)](https://laravel.com)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Laravel boilerplate for fast bootstrapping of multi-platform bots:
 **Telegram**, **MAX** (VK national messenger), and **VK Mini Apps**.

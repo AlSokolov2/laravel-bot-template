@@ -3,8 +3,8 @@
     "name": "alsokolov/laravel-bot-template",
     "type": "project",
     "description": "Laravel boilerplate for multi-platform bots (Telegram, MAX, VK Mini Apps) with Platform Adapter Architecture.",
-    "keywords": ["laravel", "telegram-bot", "max-bot", "multi-platform", "boilerplate", "gplv3"],
-    "license": "GPL-3.0-or-later",
+    "keywords": ["laravel", "telegram-bot", "max-bot", "multi-platform", "boilerplate", "mit"],
+    "license": "MIT",
     "require": {
         "php": "^8.3",
         "irazasyed/telegram-bot-sdk": "^3.15",
